@@ -354,9 +354,9 @@ def analysis_it():
     #数据可视化
     df_nu = pd.DataFrame([c1,points,price])
     labels = ["Column 1", "points", "price"]
-    # P.boxPlot(df_nu,labels)
+    P.boxPlot(df_nu,labels)
 
-    # plt.show()
+    plt.show()
     #--------------------------------------------------------------
     #修复缺失值
     #重新读取数据
@@ -375,12 +375,11 @@ def analysis_it():
     mode_p = mode_ndarray[random_mode]
     df.loc[pd.isna(df.loc[:,"price"]), "price"] = mode_p
     # print(mode_price.mode)
-    print(any(pd.isna(df.loc[:,"price"])))
+    # print(any(pd.isna(df.loc[:,"price"])))
 
     #region_1和region_2之间存在关系，可以相互修复
     #province属于country，可以填写属于该country即可
     #designation和country直接去除
-
 
 
 if __name__ == "__main__":
