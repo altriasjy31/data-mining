@@ -18,3 +18,8 @@ cbg_patters:https://www.kaggle.com/safegraph/visit-patterns-by-census-block-grou
 分析wine-reviews数据集
 
 metrics为lift, leverage, coviction
+
+## 目录assignment/第三次互评作业，数据挖掘第3次互评作业
+
+## 目录assignment/第四次互评作业，数据挖掘第4次互评作业
+分析wine数据集和skin数据集
